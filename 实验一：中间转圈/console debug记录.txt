@@ -1,0 +1,306 @@
+
+
+
+
+Simulation of a simple wireless topology running with AODV
+
+
+
+Starting simulation...
+
+
+
+num_nodes is set 4
+warning: Please use -channel as shown in tcl/ex/wireless-mitf.tcl
+
+INITIALIZE THE LIST xListHead
+Loading connection pattern file
+
+
+
+argc::3 target _o88---------------------------------------------
+argc::3 target _o91---------------------------------------------
+argc::3 target _o94---------------------------------------------
+argc::3 target _o97---------------------------------------------
+Connection pattern file loading complete...
+
+
+
+Loading scenario file...
+
+
+
+Scenario file loading complete...
+
+
+
+Simulation may take a few minutes...
+
+
+
+A sample script runs
+
+argc::3 index 0---------------------------------------------
+Im node 0 RIGISTRATION 
+argc::3 index 1---------------------------------------------
+Im node 1 RIGISTRATION 
+argc::3 index 2---------------------------------------------
+Im node 2 RIGISTRATION 
+argc::3 index 3---------------------------------------------
+Im node 3 RIGISTRATION 
+SORTING LISTS ...DONE!
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+argc::8 send 3---------------------------------------------
+Im node 0 My bundleBuffer 1
+my index:0 AT 0 0
+1 84.4002 138.999
+my index:0 location: 0 0
+1nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 0 recv 1500 from node 0
+( 1) -  0 sending Route Request, dst: 1
+( 2) -  0 sending Route Request, dst: 1, tout 1.800000 ms
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1280 from node 0
+1 - recvRequest: destination sending reply
+sending Reply from 1 at 11.00
+0 - recvReply: received a REPLY
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv 10 from node 1
+Im node 0 recv a ACK!!
+Im node 1 My bundleBuffer 1
+my index:1 AT 82.9147 142.713
+2 217.085 157.289
+my index:1 AT 82.9147 142.713
+0 0 0
+my index:1 location: 82.9147 142.713
+2nb->syn_utilValue[orient]:-0.657389 m_uti_nodeInfo.getSynValue(orient): 0
+my index:1 location: 82.9147 142.713
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 1 My bundleBuffer 1
+my index:1 AT 81.4291 146.427
+2 218.57 153.575
+my index:1 AT 81.4291 146.427
+0 0 0
+my index:1 location: 81.4291 146.427
+2nb->syn_utilValue[orient]:-0.720655 m_uti_nodeInfo.getSynValue(orient): 0
+my index:1 location: 81.4291 146.427
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 1 My bundleBuffer 1
+my index:1 AT 80.0014 150.003
+2 219.999 149.999
+my index:1 AT 80.0014 150.003
+0 0 0
+my index:1 location: 80.0014 150.003
+2nb->syn_utilValue[orient]:-0.786969 m_uti_nodeInfo.getSynValue(orient): 0.01576
+my index:1 location: 80.0014 150.003
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.01576
+Im node 1 My bundleBuffer 1
+my index:1 AT 81.4869 153.717
+2 218.514 146.285
+my index:1 AT 81.4869 153.717
+0 0 0
+my index:1 location: 81.4869 153.717
+2nb->syn_utilValue[orient]:-0.85562 m_uti_nodeInfo.getSynValue(orient): 0.0465828
+my index:1 location: 81.4869 153.717
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.0465828
+Im node 1 My bundleBuffer 1
+my index:1 AT 82.9725 157.431
+2 217.028 142.571
+my index:1 AT 82.9725 157.431
+0 0 0
+my index:1 location: 82.9725 157.431
+2nb->syn_utilValue[orient]:-0.925694 m_uti_nodeInfo.getSynValue(orient): 0.0765204
+my index:1 location: 82.9725 157.431
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.0765204
+Im node 1 My bundleBuffer 1
+my index:1 AT 84.458 161.145
+2 215.543 138.857
+my index:1 AT 84.458 161.145
+0 0 0
+my index:1 location: 84.458 161.145
+2nb->syn_utilValue[orient]:-0.997398 m_uti_nodeInfo.getSynValue(orient): 0.105623
+my index:1 location: 84.458 161.145
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.105623
+Im node 1 My bundleBuffer 1
+my index:1 AT 85.9436 164.859
+2 214.057 135.143
+my index:1 AT 85.9436 164.859
+0 0 0
+my index:1 location: 85.9436 164.859
+2nb->syn_utilValue[orient]:-1 m_uti_nodeInfo.getSynValue(orient): 0.286235
+my index:1 location: 85.9436 164.859
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.286235
+Im node 1 My bundleBuffer 1
+my index:1 AT 87.4292 168.573
+3 300 300
+my index:1 AT 87.4292 168.573
+2 212.572 131.429
+my index:1 AT 87.4292 168.573
+0 0 0
+Im node 1 recv 1500 from node 1
+( 3) -  1 sending Route Request, dst: 3
+( 4) -  1 sending Route Request, dst: 3, tout 1.800000 ms
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1280 from node 1
+3 - recvRequest: destination sending reply
+sending Reply from 3 at 19.00
+1 - recvReply: received a REPLY
+recvRequest: got my own REQUEST
+recvRequest: discarding request
+recvRequest: discarding request
+Im node 3 recv a DATA!! FROM 1
+Im node 3 recv a DATA!! FROM 1
+Im node 3 recv a DATA!! FROM 1
+Im node 3 recv a DATA!! FROM 1
+Im node 3 recv a DATA!! FROM 1
+Im node 3 recv a DATA!! FROM 1
+recvRequest: got my own REQUEST
+recvRequest: discarding request
+Im node 3 recv a DATA!! FROM 1
+Im node 3 recv 10 from node 3
+Im node 1 recv a ACK!!
+Im node 0 PURGE 1
+Im node 2 PURGE 3
+Im node 3 PURGE 2
+Im node 1 PURGE 0
+argc::8 send 3---------------------------------------------
+Im node 0 My bundleBuffer 1
+my index:0 AT 0 0
+2 93.4807 128.53
+my index:0 location: 0 0
+2nb->syn_utilValue[orient]:-0.0128565 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 0 recv 1500 from node 0
+( 5) -  0 sending Route Request, dst: 2
+( 6) -  0 sending Route Request, dst: 2, tout 1.800000 ms
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1280 from node 0
+2 - recvRequest: destination sending reply
+sending Reply from 2 at 65.00
+0 - recvReply: received a REPLY
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv 10 from node 2
+Im node 0 recv a ACK!!
+Im node 2 My bundleBuffer 1
+my index:2 AT 94.0258 134.505
+0 0 0
+my index:2 AT 94.0258 134.505
+1 206.156 167.485
+my index:2 location: 94.0258 134.505
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.365433
+my index:2 location: 94.0258 134.505
+1nb->syn_utilValue[orient]:-0.95994 m_uti_nodeInfo.getSynValue(orient): 0.365433
+Im node 2 My bundleBuffer 1
+my index:2 AT 94.3891 138.488
+0 0 0
+my index:2 AT 94.3891 138.488
+1 205.792 163.501
+my index:2 location: 94.3891 138.488
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.0233675
+my index:2 location: 94.3891 138.488
+1nb->syn_utilValue[orient]:-1 m_uti_nodeInfo.getSynValue(orient): 0.0233675
+Im node 2 My bundleBuffer 1
+my index:2 AT 94.7525 142.472
+0 0 0
+my index:2 AT 94.7525 142.472
+1 205.429 159.518
+my index:2 location: 94.7525 142.472
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.0539694
+my index:2 location: 94.7525 142.472
+1nb->syn_utilValue[orient]:-1 m_uti_nodeInfo.getSynValue(orient): 0.0539694
+Im node 2 My bundleBuffer 1
+my index:2 AT 95.1158 146.455
+0 0 0
+my index:2 AT 95.1158 146.455
+1 205.066 155.534
+my index:2 location: 95.1158 146.455
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.0836986
+my index:2 location: 95.1158 146.455
+1nb->syn_utilValue[orient]:-1 m_uti_nodeInfo.getSynValue(orient): 0.0836986
+Im node 2 My bundleBuffer 1
+my index:2 AT 95.4792 150.439
+0 0 0
+my index:2 AT 95.4792 150.439
+1 204.702 151.551
+my index:2 location: 95.4792 150.439
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.112604
+my index:2 location: 95.4792 150.439
+1nb->syn_utilValue[orient]:-1 m_uti_nodeInfo.getSynValue(orient): 0.112604
+Im node 2 My bundleBuffer 1
+my index:2 AT 95.8425 154.422
+0 0 0
+my index:2 AT 95.8425 154.422
+1 204.339 147.567
+my index:2 location: 95.8425 154.422
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.140733
+my index:2 location: 95.8425 154.422
+1nb->syn_utilValue[orient]:-1 m_uti_nodeInfo.getSynValue(orient): 0.140733
+Im node 2 My bundleBuffer 1
+my index:2 AT 96.2059 158.406
+3 300 300
+my index:2 AT 96.2059 158.406
+0 0 0
+my index:2 AT 96.2059 158.406
+1 203.976 143.584
+Im node 2 recv 1500 from node 2
+( 7) -  2 sending Route Request, dst: 3
+( 8) -  2 sending Route Request, dst: 3, tout 1.800000 ms
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1280 from node 2
+3 - recvRequest: destination sending reply
+sending Reply from 3 at 72.00
+2 - recvReply: received a REPLY
+Im node 3 recv a DATA!! FROM 2
+recvRequest: got my own REQUEST
+recvRequest: discarding request
+recvRequest: discarding request
+recvRequest: got my own REQUEST
+recvRequest: discarding request
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv 10 from node 3
+Im node 2 recv a ACK!!
+Im node 0 PURGE 2
+Im node 2 PURGE 0
+Im node 3 PURGE 1
+Im node 1 PURGE 3
+Im node 0 PURGE 1
+Im node 2 PURGE 3
+Im node 3 PURGE 2
+Im node 1 PURGE 0
+Im node 0 PURGE 2
+Im node 2 PURGE 0
+Im node 3 PURGE 1
+Im node 1 PURGE 3
