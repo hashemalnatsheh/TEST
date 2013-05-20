@@ -1,0 +1,1068 @@
+
+
+
+
+Simulation of a simple wireless topology running with AODV
+
+
+
+Starting simulation...
+
+
+
+num_nodes is set 4
+warning: Please use -channel as shown in tcl/ex/wireless-mitf.tcl
+
+INITIALIZE THE LIST xListHead
+Loading connection pattern file
+
+
+
+argc::3 target _o88---------------------------------------------
+argc::3 target _o91---------------------------------------------
+argc::3 target _o94---------------------------------------------
+argc::3 target _o97---------------------------------------------
+Connection pattern file loading complete...
+
+
+
+Loading scenario file...
+
+
+
+Scenario file loading complete...
+
+
+
+Simulation may take a few minutes...
+
+
+
+A sample script runs
+
+argc::3 index 0---------------------------------------------
+Im node 0 RIGISTRATION 
+argc::3 index 1---------------------------------------------
+Im node 1 RIGISTRATION 
+argc::3 index 2---------------------------------------------
+Im node 2 RIGISTRATION 
+argc::3 index 3---------------------------------------------
+Im node 3 RIGISTRATION 
+SORTING LISTS ...DONE!
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+argc::8 send 3---------------------------------------------
+Im node 0 My bundleBuffer 1
+my index:0 AT 0 200
+1 180 300
+my index:0 AT 0 200
+2 101.001 100
+my index:0 location: 0 200
+1nb->syn_utilValue[orient]:0.971697 m_uti_nodeInfo.getSynValue(orient): 0
+my index:0 location: 0 200
+2nb->syn_utilValue[orient]:0.963446 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 0 recv 1500 from node 0
+( 1) -  0 sending Route Request, dst: 1
+( 2) -  0 sending Route Request, dst: 1, tout 1.800000 ms
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1280 from node 0
+1 - recvRequest: destination sending reply
+sending Reply from 1 at 51.00
+0 - recvReply: received a REPLY
+Im node 1 recv a DATA!! FROM 0
+recvRequest: got my own REQUEST
+recvRequest: discarding request
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv a DATA!! FROM 0
+Im node 1 recv 10 from node 1
+Im node 0 recv a ACK!!
+Im node 1 My bundleBuffer 1
+my index:1 AT 180 299.996
+2 103.001 100
+my index:1 AT 180 299.996
+0 0 200
+my index:1 location: 180 299.996
+2nb->syn_utilValue[orient]:0.981218 m_uti_nodeInfo.getSynValue(orient): 0.766467
+my index:1 location: 180 299.996
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.766467
+Im node 1 My bundleBuffer 1
+my index:1 AT 179.866 295.999
+2 105.001 100
+my index:1 AT 179.866 295.999
+0 0 200
+my index:1 location: 179.866 295.999
+2nb->syn_utilValue[orient]:0.975381 m_uti_nodeInfo.getSynValue(orient): 0.420472
+my index:1 location: 179.866 295.999
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.420472
+Im node 1 recv 1500 from node 1
+( 3) -  1 sending Route Request, dst: 2
+( 4) -  1 sending Route Request, dst: 2, tout 1.800000 ms
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1500 from node 1
+Im node 1 recv 1280 from node 1
+2 - recvRequest: destination sending reply
+sending Reply from 2 at 53.00
+1 - recvReply: received a REPLY
+recvRequest: discarding request
+recvRequest: got my own REQUEST
+Im node 2 recv a DATA!! FROM 1
+Im node 2 recv a DATA!! FROM 1
+Im node 2 recv a DATA!! FROM 1
+Im node 2 recv a DATA!! FROM 1
+Im node 2 recv a DATA!! FROM 1
+Im node 2 recv a DATA!! FROM 1
+Im node 2 recv a DATA!! FROM 1
+Im node 2 recv 10 from node 2
+Im node 1 recv a ACK!!
+Im node 2 My bundleBuffer 1
+my index:2 AT 108.001 100
+1 179.732 292.001
+my index:2 AT 108.001 100
+0 0 200
+my index:2 location: 108.001 100
+1nb->syn_utilValue[orient]:0.249678 m_uti_nodeInfo.getSynValue(orient): 0.446992
+my index:2 location: 108.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.446992
+Im node 2 My bundleBuffer 1
+my index:2 AT 110.001 100
+1 179.599 288.003
+my index:2 AT 110.001 100
+0 0 200
+my index:2 location: 110.001 100
+1nb->syn_utilValue[orient]:0.165323 m_uti_nodeInfo.getSynValue(orient): 0.450747
+my index:2 location: 110.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.450747
+Im node 2 My bundleBuffer 1
+my index:2 AT 112.001 100
+1 179.465 284.005
+my index:2 AT 112.001 100
+0 0 200
+my index:2 location: 112.001 100
+1nb->syn_utilValue[orient]:0.0827921 m_uti_nodeInfo.getSynValue(orient): 0.454415
+my index:2 location: 112.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.454415
+Im node 2 My bundleBuffer 1
+my index:2 AT 114.001 100
+1 179.331 280.008
+my index:2 AT 114.001 100
+0 0 200
+my index:2 location: 114.001 100
+1nb->syn_utilValue[orient]:0.00180872 m_uti_nodeInfo.getSynValue(orient): 0.457998
+my index:2 location: 114.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.457998
+Im node 2 My bundleBuffer 1
+my index:2 AT 116.001 100
+1 179.198 276.01
+my index:2 AT 116.001 100
+0 0 200
+my index:2 location: 116.001 100
+1nb->syn_utilValue[orient]:-0.0746467 m_uti_nodeInfo.getSynValue(orient): 0.461499
+my index:2 location: 116.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.461499
+Im node 2 My bundleBuffer 1
+my index:2 AT 118.001 100
+1 179.064 272.012
+my index:2 AT 118.001 100
+0 0 200
+my index:2 location: 118.001 100
+1nb->syn_utilValue[orient]:-0.138009 m_uti_nodeInfo.getSynValue(orient): 0.464918
+my index:2 location: 118.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.464918
+Im node 2 My bundleBuffer 1
+my index:2 AT 120.001 100
+1 178.93 268.014
+my index:2 AT 120.001 100
+0 0 200
+my index:2 location: 120.001 100
+1nb->syn_utilValue[orient]:-0.190844 m_uti_nodeInfo.getSynValue(orient): 0.46826
+my index:2 location: 120.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.46826
+Im node 2 My bundleBuffer 1
+my index:2 AT 122.001 100
+1 178.797 264.016
+my index:2 AT 122.001 100
+0 0 200
+my index:2 location: 122.001 100
+1nb->syn_utilValue[orient]:-0.235381 m_uti_nodeInfo.getSynValue(orient): 0.471524
+my index:2 location: 122.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.471524
+Im node 2 My bundleBuffer 1
+my index:2 AT 124.001 100
+1 178.663 260.019
+my index:2 AT 124.001 100
+0 0 200
+my index:2 location: 124.001 100
+1nb->syn_utilValue[orient]:-0.27344 m_uti_nodeInfo.getSynValue(orient): 0.474714
+my index:2 location: 124.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.474714
+Im node 2 My bundleBuffer 1
+my index:2 AT 126.001 100
+1 178.529 256.021
+my index:2 AT 126.001 100
+0 0 200
+my index:2 location: 126.001 100
+1nb->syn_utilValue[orient]:-0.306518 m_uti_nodeInfo.getSynValue(orient): 0.477832
+my index:2 location: 126.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.477832
+Im node 2 My bundleBuffer 1
+my index:2 AT 128.001 100
+1 178.395 252.023
+my index:2 AT 128.001 100
+0 0 200
+my index:2 location: 128.001 100
+1nb->syn_utilValue[orient]:-0.335853 m_uti_nodeInfo.getSynValue(orient): 0.480878
+my index:2 location: 128.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.480878
+Im node 2 My bundleBuffer 1
+my index:2 AT 130.001 100
+1 178.262 248.025
+my index:2 AT 130.001 100
+0 0 200
+my index:2 location: 130.001 100
+1nb->syn_utilValue[orient]:-0.362488 m_uti_nodeInfo.getSynValue(orient): 0.483855
+my index:2 location: 130.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.483855
+Im node 2 My bundleBuffer 1
+my index:2 AT 132.001 100
+1 178.128 244.028
+my index:2 AT 132.001 100
+0 0 200
+my index:2 location: 132.001 100
+1nb->syn_utilValue[orient]:-0.387313 m_uti_nodeInfo.getSynValue(orient): 0.486765
+my index:2 location: 132.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.486765
+Im node 2 My bundleBuffer 1
+my index:2 AT 134.001 100
+1 177.994 240.03
+my index:2 AT 134.001 100
+0 0 200
+my index:2 location: 134.001 100
+1nb->syn_utilValue[orient]:-0.411113 m_uti_nodeInfo.getSynValue(orient): 0.489609
+my index:2 location: 134.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.489609
+Im node 2 My bundleBuffer 1
+my index:2 AT 136.001 100
+1 177.861 236.032
+my index:2 AT 136.001 100
+0 0 200
+my index:2 location: 136.001 100
+1nb->syn_utilValue[orient]:-0.434603 m_uti_nodeInfo.getSynValue(orient): 0.49239
+my index:2 location: 136.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.49239
+Im node 2 My bundleBuffer 1
+my index:2 AT 138.001 100
+1 177.727 232.034
+my index:2 AT 138.001 100
+0 0 200
+my index:2 location: 138.001 100
+1nb->syn_utilValue[orient]:-0.458468 m_uti_nodeInfo.getSynValue(orient): 0.495107
+my index:2 location: 138.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.495107
+Im node 2 My bundleBuffer 1
+my index:2 AT 140.001 100
+1 177.593 228.037
+my index:2 AT 140.001 100
+0 0 200
+my index:2 location: 140.001 100
+1nb->syn_utilValue[orient]:-0.479244 m_uti_nodeInfo.getSynValue(orient): 0.497764
+my index:2 location: 140.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.497764
+Im node 2 My bundleBuffer 1
+my index:2 AT 142.001 100
+1 177.459 224.039
+my index:2 AT 142.001 100
+0 0 200
+my index:2 location: 142.001 100
+1nb->syn_utilValue[orient]:-0.495451 m_uti_nodeInfo.getSynValue(orient): 0.500361
+my index:2 location: 142.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.500361
+Im node 2 My bundleBuffer 1
+my index:2 AT 144.001 100
+1 177.326 220.041
+my index:2 AT 144.001 100
+0 0 200
+my index:2 location: 144.001 100
+1nb->syn_utilValue[orient]:-0.510051 m_uti_nodeInfo.getSynValue(orient): 0.5029
+my index:2 location: 144.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.5029
+Im node 2 My bundleBuffer 1
+my index:2 AT 146.001 100
+1 177.192 216.043
+my index:2 AT 146.001 100
+0 0 200
+my index:2 location: 146.001 100
+1nb->syn_utilValue[orient]:-0.521492 m_uti_nodeInfo.getSynValue(orient): 0.505382
+my index:2 location: 146.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.505382
+Im node 2 My bundleBuffer 1
+my index:2 AT 148.001 100
+1 177.058 212.046
+my index:2 AT 148.001 100
+0 0 200
+my index:2 location: 148.001 100
+1nb->syn_utilValue[orient]:-0.530126 m_uti_nodeInfo.getSynValue(orient): 0.507809
+my index:2 location: 148.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.507809
+Im node 2 My bundleBuffer 1
+my index:2 AT 150.001 100
+1 176.925 208.048
+my index:2 AT 150.001 100
+0 0 200
+my index:2 location: 150.001 100
+1nb->syn_utilValue[orient]:-0.536754 m_uti_nodeInfo.getSynValue(orient): 0.510182
+my index:2 location: 150.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.510182
+Im node 2 My bundleBuffer 1
+my index:2 AT 152.001 100
+1 176.791 204.05
+my index:2 AT 152.001 100
+0 0 200
+my index:2 location: 152.001 100
+1nb->syn_utilValue[orient]:-0.541514 m_uti_nodeInfo.getSynValue(orient): 0.512503
+my index:2 location: 152.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.512503
+Im node 2 My bundleBuffer 1
+my index:2 AT 154.001 100
+1 176.657 200.052
+my index:2 AT 154.001 100
+0 0 200
+my index:2 location: 154.001 100
+1nb->syn_utilValue[orient]:-0.546824 m_uti_nodeInfo.getSynValue(orient): 0.514772
+my index:2 location: 154.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.514772
+Im node 2 My bundleBuffer 1
+my index:2 AT 156.001 100
+1 176.524 196.054
+my index:2 AT 156.001 100
+0 0 200
+my index:2 location: 156.001 100
+1nb->syn_utilValue[orient]:-0.55075 m_uti_nodeInfo.getSynValue(orient): 0.516991
+my index:2 location: 156.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.516991
+Im node 2 My bundleBuffer 1
+my index:2 AT 158.001 100
+1 176.39 192.057
+my index:2 AT 158.001 100
+0 0 200
+my index:2 location: 158.001 100
+1nb->syn_utilValue[orient]:-0.55331 m_uti_nodeInfo.getSynValue(orient): 0.519161
+my index:2 location: 158.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.519161
+Im node 2 My bundleBuffer 1
+my index:2 AT 160.001 100
+1 176.256 188.059
+my index:2 AT 160.001 100
+0 0 200
+my index:2 location: 160.001 100
+1nb->syn_utilValue[orient]:-0.556855 m_uti_nodeInfo.getSynValue(orient): 0.521283
+my index:2 location: 160.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.521283
+Im node 2 My bundleBuffer 1
+my index:2 AT 162.001 100
+1 176.122 184.061
+my index:2 AT 162.001 100
+0 0 200
+my index:2 location: 162.001 100
+1nb->syn_utilValue[orient]:-0.559342 m_uti_nodeInfo.getSynValue(orient): 0.523359
+my index:2 location: 162.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.523359
+Im node 2 My bundleBuffer 1
+my index:2 AT 164.001 100
+1 175.989 180.063
+my index:2 AT 164.001 100
+0 0 200
+my index:2 location: 164.001 100
+1nb->syn_utilValue[orient]:-0.560724 m_uti_nodeInfo.getSynValue(orient): 0.525389
+my index:2 location: 164.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.525389
+Im node 2 My bundleBuffer 1
+my index:2 AT 166.001 100
+1 175.855 176.066
+my index:2 AT 166.001 100
+0 0 200
+my index:2 location: 166.001 100
+1nb->syn_utilValue[orient]:-0.563331 m_uti_nodeInfo.getSynValue(orient): 0.527374
+my index:2 location: 166.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.527374
+Im node 2 My bundleBuffer 1
+my index:2 AT 168.001 100
+1 175.721 172.068
+my index:2 AT 168.001 100
+0 0 200
+my index:2 location: 168.001 100
+1nb->syn_utilValue[orient]:-0.562969 m_uti_nodeInfo.getSynValue(orient): 0.529316
+my index:2 location: 168.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.529316
+Im node 2 My bundleBuffer 1
+my index:2 AT 170.001 100
+1 175.588 168.07
+my index:2 AT 170.001 100
+0 0 200
+my index:2 location: 170.001 100
+1nb->syn_utilValue[orient]:-0.564128 m_uti_nodeInfo.getSynValue(orient): 0.531216
+my index:2 location: 170.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.531216
+Im node 2 My bundleBuffer 1
+my index:2 AT 172.001 100
+1 175.454 164.072
+my index:2 AT 172.001 100
+0 0 200
+my index:2 location: 172.001 100
+1nb->syn_utilValue[orient]:-0.564693 m_uti_nodeInfo.getSynValue(orient): 0.533074
+my index:2 location: 172.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.533074
+Im node 2 My bundleBuffer 1
+my index:2 AT 174.001 100
+1 175.32 160.075
+my index:2 AT 174.001 100
+0 0 200
+my index:2 location: 174.001 100
+1nb->syn_utilValue[orient]:-0.564533 m_uti_nodeInfo.getSynValue(orient): 0.534892
+my index:2 location: 174.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.534892
+Im node 2 My bundleBuffer 1
+my index:2 AT 176.001 100
+1 175.187 156.077
+my index:2 AT 176.001 100
+0 0 200
+my index:2 location: 176.001 100
+1nb->syn_utilValue[orient]:-0.565871 m_uti_nodeInfo.getSynValue(orient): 0.536671
+my index:2 location: 176.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.536671
+Im node 2 My bundleBuffer 1
+my index:2 AT 178.001 100
+1 175.053 152.079
+my index:2 AT 178.001 100
+0 0 200
+my index:2 location: 178.001 100
+1nb->syn_utilValue[orient]:-0.566572 m_uti_nodeInfo.getSynValue(orient): 0.53841
+my index:2 location: 178.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.53841
+Im node 2 My bundleBuffer 1
+my index:2 AT 180.001 100
+1 174.919 148.081
+my index:2 AT 180.001 100
+0 0 200
+my index:2 location: 180.001 100
+1nb->syn_utilValue[orient]:-0.56651 m_uti_nodeInfo.getSynValue(orient): 0.540112
+my index:2 location: 180.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.540112
+Im node 2 My bundleBuffer 1
+my index:2 AT 182.001 100
+1 174.785 144.084
+my index:2 AT 182.001 100
+0 0 200
+my index:2 location: 182.001 100
+1nb->syn_utilValue[orient]:-0.567944 m_uti_nodeInfo.getSynValue(orient): 0.541778
+my index:2 location: 182.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.541778
+Im node 2 My bundleBuffer 1
+my index:2 AT 184.001 100
+1 174.652 140.086
+my index:2 AT 184.001 100
+0 0 200
+my index:2 location: 184.001 100
+1nb->syn_utilValue[orient]:-0.566638 m_uti_nodeInfo.getSynValue(orient): 0.543407
+my index:2 location: 184.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.543407
+Im node 2 My bundleBuffer 1
+my index:2 AT 186.001 100
+1 174.518 136.088
+my index:2 AT 186.001 100
+0 0 200
+my index:2 location: 186.001 100
+1nb->syn_utilValue[orient]:-0.56703 m_uti_nodeInfo.getSynValue(orient): 0.545001
+my index:2 location: 186.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.545001
+Im node 2 My bundleBuffer 1
+my index:2 AT 188.001 100
+1 174.384 132.09
+my index:2 AT 188.001 100
+0 0 200
+my index:2 location: 188.001 100
+1nb->syn_utilValue[orient]:-0.566975 m_uti_nodeInfo.getSynValue(orient): 0.546561
+my index:2 location: 188.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.546561
+Im node 2 My bundleBuffer 1
+my index:2 AT 190.001 100
+1 174.251 128.092
+my index:2 AT 190.001 100
+0 0 200
+my index:2 location: 190.001 100
+1nb->syn_utilValue[orient]:-0.566314 m_uti_nodeInfo.getSynValue(orient): 0.548087
+my index:2 location: 190.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.548087
+Im node 2 My bundleBuffer 1
+my index:2 AT 192.001 100
+1 174.117 124.095
+my index:2 AT 192.001 100
+0 0 200
+my index:2 location: 192.001 100
+1nb->syn_utilValue[orient]:-0.567244 m_uti_nodeInfo.getSynValue(orient): 0.54958
+my index:2 location: 192.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.54958
+Im node 2 My bundleBuffer 1
+my index:2 AT 194.001 100
+1 173.983 120.097
+my index:2 AT 194.001 100
+0 0 200
+my index:2 location: 194.001 100
+1nb->syn_utilValue[orient]:-0.567617 m_uti_nodeInfo.getSynValue(orient): 0.551041
+my index:2 location: 194.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.551041
+Im node 2 My bundleBuffer 1
+my index:2 AT 196.001 100
+1 173.849 116.099
+my index:2 AT 196.001 100
+0 0 200
+my index:2 location: 196.001 100
+1nb->syn_utilValue[orient]:-0.56729 m_uti_nodeInfo.getSynValue(orient): 0.552471
+my index:2 location: 196.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.552471
+Im node 2 My bundleBuffer 1
+my index:2 AT 198.001 100
+1 173.716 112.101
+my index:2 AT 198.001 100
+0 0 200
+my index:2 location: 198.001 100
+1nb->syn_utilValue[orient]:-0.568507 m_uti_nodeInfo.getSynValue(orient): 0.553871
+my index:2 location: 198.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.553871
+Im node 2 My bundleBuffer 1
+my index:2 AT 200.001 100
+1 173.582 108.104
+my index:2 AT 200.001 100
+0 0 200
+my index:2 location: 200.001 100
+1nb->syn_utilValue[orient]:-0.567031 m_uti_nodeInfo.getSynValue(orient): 0.55524
+my index:2 location: 200.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.55524
+Im node 2 My bundleBuffer 1
+my index:2 AT 202.001 100
+1 173.448 104.106
+my index:2 AT 202.001 100
+0 0 200
+my index:2 location: 202.001 100
+1nb->syn_utilValue[orient]:-0.567283 m_uti_nodeInfo.getSynValue(orient): 0.55658
+my index:2 location: 202.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.55658
+Im node 2 My bundleBuffer 1
+my index:2 AT 204.001 100
+1 173.315 100.108
+my index:2 AT 204.001 100
+0 0 200
+my index:2 location: 204.001 100
+1nb->syn_utilValue[orient]:-0.567115 m_uti_nodeInfo.getSynValue(orient): 0.557892
+my index:2 location: 204.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.557892
+Im node 2 My bundleBuffer 1
+my index:2 AT 206.001 100
+1 173.181 96.1103
+my index:2 AT 206.001 100
+0 0 200
+my index:2 location: 206.001 100
+1nb->syn_utilValue[orient]:-0.566365 m_uti_nodeInfo.getSynValue(orient): 0.559175
+my index:2 location: 206.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.559175
+Im node 2 My bundleBuffer 1
+my index:2 AT 208.001 100
+1 173.047 92.1126
+my index:2 AT 208.001 100
+0 0 200
+my index:2 location: 208.001 100
+1nb->syn_utilValue[orient]:-0.567221 m_uti_nodeInfo.getSynValue(orient): 0.560432
+my index:2 location: 208.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.560432
+Im node 2 My bundleBuffer 1
+my index:2 AT 210.001 100
+1 172.914 88.1148
+my index:2 AT 210.001 100
+0 0 200
+my index:2 location: 210.001 100
+1nb->syn_utilValue[orient]:-0.567534 m_uti_nodeInfo.getSynValue(orient): 0.561661
+my index:2 location: 210.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.561661
+Im node 2 My bundleBuffer 1
+my index:2 AT 212.001 100
+1 172.78 84.117
+my index:2 AT 212.001 100
+0 0 200
+my index:2 location: 212.001 100
+1nb->syn_utilValue[orient]:-0.567161 m_uti_nodeInfo.getSynValue(orient): 0.562865
+my index:2 location: 212.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.562865
+Im node 2 My bundleBuffer 1
+my index:2 AT 214.001 100
+1 172.646 80.1193
+my index:2 AT 214.001 100
+0 0 200
+my index:2 location: 214.001 100
+1nb->syn_utilValue[orient]:-0.568338 m_uti_nodeInfo.getSynValue(orient): 0.564043
+my index:2 location: 214.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.564043
+Im node 2 My bundleBuffer 1
+my index:2 AT 216.001 100
+1 172.512 76.1215
+my index:2 AT 216.001 100
+0 0 200
+my index:2 location: 216.001 100
+1nb->syn_utilValue[orient]:-0.566835 m_uti_nodeInfo.getSynValue(orient): 0.565196
+my index:2 location: 216.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.565196
+Im node 2 My bundleBuffer 1
+my index:2 AT 218.001 100
+1 172.379 72.1238
+my index:2 AT 218.001 100
+0 0 200
+my index:2 location: 218.001 100
+1nb->syn_utilValue[orient]:-0.567062 m_uti_nodeInfo.getSynValue(orient): 0.566324
+my index:2 location: 218.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.566324
+Im node 2 My bundleBuffer 1
+my index:2 AT 220.001 100
+1 172.245 68.126
+my index:2 AT 220.001 100
+0 0 200
+my index:2 location: 220.001 100
+1nb->syn_utilValue[orient]:-0.566876 m_uti_nodeInfo.getSynValue(orient): 0.567429
+my index:2 location: 220.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.567429
+Im node 2 My bundleBuffer 1
+my index:2 AT 222.001 100
+1 172.111 64.1282
+my index:2 AT 222.001 100
+0 0 200
+my index:2 location: 222.001 100
+1nb->syn_utilValue[orient]:-0.566113 m_uti_nodeInfo.getSynValue(orient): 0.56851
+my index:2 location: 222.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.56851
+Im node 2 My bundleBuffer 1
+my index:2 AT 224.001 100
+1 171.978 60.1305
+my index:2 AT 224.001 100
+0 0 200
+my index:2 location: 224.001 100
+1nb->syn_utilValue[orient]:-0.566956 m_uti_nodeInfo.getSynValue(orient): 0.569569
+my index:2 location: 224.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.569569
+Im node 2 My bundleBuffer 1
+my index:2 AT 226.001 100
+1 171.844 56.1327
+my index:2 AT 226.001 100
+0 0 200
+my index:2 location: 226.001 100
+1nb->syn_utilValue[orient]:-0.56726 m_uti_nodeInfo.getSynValue(orient): 0.570605
+my index:2 location: 226.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.570605
+Im node 2 My bundleBuffer 1
+my index:2 AT 228.001 100
+1 171.71 52.1349
+my index:2 AT 228.001 100
+0 0 200
+my index:2 location: 228.001 100
+1nb->syn_utilValue[orient]:-0.56688 m_uti_nodeInfo.getSynValue(orient): 0.571619
+my index:2 location: 228.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.571619
+Im node 2 My bundleBuffer 1
+my index:2 AT 230.001 100
+1 171.576 48.1372
+my index:2 AT 230.001 100
+0 0 200
+my index:2 location: 230.001 100
+1nb->syn_utilValue[orient]:-0.568051 m_uti_nodeInfo.getSynValue(orient): 0.572612
+my index:2 location: 230.001 100
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0.572612
+Im node 0 PURGE 2
+Im node 2 PURGE 0
+Im node 2 My bundleBuffer 1
+my index:2 AT 232.001 100
+1 171.443 44.1394
+my index:2 location: 232.001 100
+1nb->syn_utilValue[orient]:-0.568611 m_uti_nodeInfo.getSynValue(orient): 0.573584
+Im node 2 My bundleBuffer 1
+my index:2 AT 234.001 100
+1 171.309 40.1416
+my index:2 location: 234.001 100
+1nb->syn_utilValue[orient]:-0.568428 m_uti_nodeInfo.getSynValue(orient): 0.574536
+Im node 2 My bundleBuffer 1
+my index:2 AT 236.001 100
+1 171.175 36.1439
+my index:2 location: 236.001 100
+1nb->syn_utilValue[orient]:-0.567911 m_uti_nodeInfo.getSynValue(orient): 0.575467
+Im node 2 My bundleBuffer 1
+my index:2 AT 238.001 100
+1 171.042 32.1461
+my index:2 location: 238.001 100
+1nb->syn_utilValue[orient]:-0.566881 m_uti_nodeInfo.getSynValue(orient): 0.576379
+Im node 2 My bundleBuffer 1
+my index:2 AT 240.001 100
+1 170.908 28.1483
+my index:2 location: 240.001 100
+1nb->syn_utilValue[orient]:-0.567506 m_uti_nodeInfo.getSynValue(orient): 0.577272
+Im node 2 My bundleBuffer 1
+my index:2 AT 242.001 100
+1 170.774 24.1506
+my index:2 location: 242.001 100
+1nb->syn_utilValue[orient]:-0.567634 m_uti_nodeInfo.getSynValue(orient): 0.578147
+Im node 2 My bundleBuffer 1
+my index:2 AT 244.001 100
+1 170.641 20.1528
+my index:2 location: 244.001 100
+1nb->syn_utilValue[orient]:-0.567115 m_uti_nodeInfo.getSynValue(orient): 0.579003
+Im node 0 PURGE 1
+Im node 2 My bundleBuffer 1
+my index:2 AT 246.001 100
+1 170.507 16.155
+my index:2 location: 246.001 100
+1nb->syn_utilValue[orient]:-0.568169 m_uti_nodeInfo.getSynValue(orient): 0.579841
+Im node 1 PURGE 0
+Im node 2 My bundleBuffer 1
+my index:2 AT 248.001 100
+1 170.373 12.1573
+my index:2 location: 248.001 100
+1nb->syn_utilValue[orient]:-0.568637 m_uti_nodeInfo.getSynValue(orient): 0.580661
+Im node 2 My bundleBuffer 1
+my index:2 AT 250.001 100
+1 170.239 8.15951
+my index:2 location: 250.001 100
+1nb->syn_utilValue[orient]:-0.56838 m_uti_nodeInfo.getSynValue(orient): 0.581465
+Im node 2 My bundleBuffer 1
+my index:2 AT 252.001 100
+1 170.106 4.16175
+my index:2 location: 252.001 100
+1nb->syn_utilValue[orient]:-0.567805 m_uti_nodeInfo.getSynValue(orient): 0.582251
+Im node 2 My bundleBuffer 1
+my index:2 AT 254.001 100
+1 170 1
+my index:2 location: 254.001 100
+1nb->syn_utilValue[orient]:-0.56673 m_uti_nodeInfo.getSynValue(orient): 0.583022
+Im node 2 My bundleBuffer 1
+my index:2 AT 256.001 100
+1 170 1
+my index:2 location: 256.001 100
+1nb->syn_utilValue[orient]:-0.567315 m_uti_nodeInfo.getSynValue(orient): 0.583776
+Im node 2 My bundleBuffer 1
+my index:2 AT 258.001 100
+1 170 1
+my index:2 location: 258.001 100
+1nb->syn_utilValue[orient]:-0.567413 m_uti_nodeInfo.getSynValue(orient): 0.584514
+Im node 2 My bundleBuffer 1
+my index:2 AT 260.001 100
+1 170 1
+my index:2 location: 260.001 100
+1nb->syn_utilValue[orient]:-0.566871 m_uti_nodeInfo.getSynValue(orient): 0.585238
+Im node 2 My bundleBuffer 1
+my index:2 AT 262.001 100
+1 170 1
+my index:2 location: 262.001 100
+1nb->syn_utilValue[orient]:-0.567904 m_uti_nodeInfo.getSynValue(orient): 0.585946
+Im node 2 My bundleBuffer 1
+my index:2 AT 264.001 100
+1 170 1
+my index:2 location: 264.001 100
+1nb->syn_utilValue[orient]:-0.568357 m_uti_nodeInfo.getSynValue(orient): 0.586639
+Im node 2 My bundleBuffer 1
+my index:2 AT 266.001 100
+1 170 1
+my index:2 location: 266.001 100
+1nb->syn_utilValue[orient]:-0.568089 m_uti_nodeInfo.getSynValue(orient): 0.587318
+Im node 2 My bundleBuffer 1
+my index:2 AT 268.001 100
+1 170 1
+my index:2 location: 268.001 100
+1nb->syn_utilValue[orient]:-0.567506 m_uti_nodeInfo.getSynValue(orient): 0.587983
+Im node 2 My bundleBuffer 1
+my index:2 AT 270.001 100
+1 170 1
+my index:2 location: 270.001 100
+1nb->syn_utilValue[orient]:-0.566427 m_uti_nodeInfo.getSynValue(orient): 0.588634
+Im node 2 My bundleBuffer 1
+my index:2 AT 272.001 100
+1 170 1
+my index:2 location: 272.001 100
+1nb->syn_utilValue[orient]:-0.567006 m_uti_nodeInfo.getSynValue(orient): 0.589272
+Im node 2 My bundleBuffer 1
+my index:2 AT 274.001 100
+1 170 1
+my index:2 location: 274.001 100
+1nb->syn_utilValue[orient]:-0.567101 m_uti_nodeInfo.getSynValue(orient): 0.589896
+Im node 2 My bundleBuffer 1
+my index:2 AT 276.001 100
+1 170 1
+my index:2 location: 276.001 100
+1nb->syn_utilValue[orient]:-0.566557 m_uti_nodeInfo.getSynValue(orient): 0.590507
+Im node 2 My bundleBuffer 1
+my index:2 AT 278.001 100
+1 170 1
+my index:2 location: 278.001 100
+1nb->syn_utilValue[orient]:-0.567587 m_uti_nodeInfo.getSynValue(orient): 0.591106
+Im node 2 My bundleBuffer 1
+my index:2 AT 280.001 100
+1 170 1
+my index:2 location: 280.001 100
+1nb->syn_utilValue[orient]:-0.568038 m_uti_nodeInfo.getSynValue(orient): 0.591693
+Im node 2 My bundleBuffer 1
+my index:2 AT 282.001 100
+1 170 1
+my index:2 location: 282.001 100
+1nb->syn_utilValue[orient]:-0.567771 m_uti_nodeInfo.getSynValue(orient): 0.592267
+Im node 2 My bundleBuffer 1
+my index:2 AT 284.001 100
+1 170 1
+my index:2 location: 284.001 100
+1nb->syn_utilValue[orient]:-0.569041 m_uti_nodeInfo.getSynValue(orient): 0.592829
+Im node 2 My bundleBuffer 1
+my index:2 AT 286.001 100
+1 170 1
+my index:2 location: 286.001 100
+1nb->syn_utilValue[orient]:-0.567598 m_uti_nodeInfo.getSynValue(orient): 0.59338
+Im node 2 My bundleBuffer 1
+my index:2 AT 288.001 100
+1 170 1
+my index:2 location: 288.001 100
+1nb->syn_utilValue[orient]:-0.56788 m_uti_nodeInfo.getSynValue(orient): 0.59392
+Im node 2 My bundleBuffer 1
+my index:2 AT 290.001 100
+1 170 1
+my index:2 location: 290.001 100
+1nb->syn_utilValue[orient]:-0.567735 m_uti_nodeInfo.getSynValue(orient): 0.594448
+Im node 2 My bundleBuffer 1
+my index:2 AT 292.001 100
+1 170 1
+my index:2 location: 292.001 100
+1nb->syn_utilValue[orient]:-0.566999 m_uti_nodeInfo.getSynValue(orient): 0.594965
+Im node 2 My bundleBuffer 1
+my index:2 AT 294.001 100
+1 170 1
+my index:2 location: 294.001 100
+1nb->syn_utilValue[orient]:-0.567871 m_uti_nodeInfo.getSynValue(orient): 0.595472
+Im node 2 My bundleBuffer 1
+my index:2 AT 296.001 100
+1 170 1
+my index:2 location: 296.001 100
+1nb->syn_utilValue[orient]:-0.568195 m_uti_nodeInfo.getSynValue(orient): 0.595968
+Im node 2 My bundleBuffer 1
+my index:2 AT 298.001 100
+1 170 1
+my index:2 location: 298.001 100
+1nb->syn_utilValue[orient]:-0.567827 m_uti_nodeInfo.getSynValue(orient): 0.596454
+Im node 2 My bundleBuffer 1
+my index:2 AT 300.001 100
+1 170 1
+my index:2 location: 300.001 100
+1nb->syn_utilValue[orient]:-0.569014 m_uti_nodeInfo.getSynValue(orient): 0.596931
+Im node 2 My bundleBuffer 1
+my index:2 AT 302.001 100
+1 170 1
+my index:2 location: 302.001 100
+1nb->syn_utilValue[orient]:-0.567507 m_uti_nodeInfo.getSynValue(orient): 0.597397
+Im node 2 My bundleBuffer 1
+my index:2 AT 304.001 100
+1 170 1
+my index:2 location: 304.001 100
+1nb->syn_utilValue[orient]:-0.567736 m_uti_nodeInfo.getSynValue(orient): 0.597854
+Im node 2 My bundleBuffer 1
+my index:2 AT 306.001 100
+1 170 1
+my index:2 location: 306.001 100
+1nb->syn_utilValue[orient]:-0.56755 m_uti_nodeInfo.getSynValue(orient): 0.598301
+Im node 2 My bundleBuffer 1
+my index:2 AT 308.001 100
+1 170 1
+my index:2 location: 308.001 100
+1nb->syn_utilValue[orient]:-0.566782 m_uti_nodeInfo.getSynValue(orient): 0.598739
+Im node 2 My bundleBuffer 1
+my index:2 AT 310.001 100
+1 170 1
+my index:2 location: 310.001 100
+1nb->syn_utilValue[orient]:-0.567626 m_uti_nodeInfo.getSynValue(orient): 0.599168
+Im node 2 My bundleBuffer 1
+my index:2 AT 312.001 100
+1 170 1
+my index:2 location: 312.001 100
+1nb->syn_utilValue[orient]:-0.567929 m_uti_nodeInfo.getSynValue(orient): 0.599589
+Im node 2 My bundleBuffer 1
+my index:2 AT 314.001 100
+1 170 1
+my index:2 location: 314.001 100
+1nb->syn_utilValue[orient]:-0.567545 m_uti_nodeInfo.getSynValue(orient): 0.6
+Im node 2 My bundleBuffer 1
+my index:2 AT 316.001 100
+1 170 1
+my index:2 location: 316.001 100
+1nb->syn_utilValue[orient]:-0.568716 m_uti_nodeInfo.getSynValue(orient): 0.600404
+Im node 2 My bundleBuffer 1
+my index:2 AT 318.001 100
+1 170 1
+my index:2 location: 318.001 100
+1nb->syn_utilValue[orient]:-0.567203 m_uti_nodeInfo.getSynValue(orient): 0.600798
+Im node 2 My bundleBuffer 1
+my index:2 AT 320.001 100
+1 170 1
+my index:2 location: 320.001 100
+1nb->syn_utilValue[orient]:-0.567424 m_uti_nodeInfo.getSynValue(orient): 0.601185
+Im node 2 My bundleBuffer 1
+my index:2 AT 322.001 100
+1 170 1
+my index:2 location: 322.001 100
+1nb->syn_utilValue[orient]:-0.567232 m_uti_nodeInfo.getSynValue(orient): 0.601564
+Im node 2 My bundleBuffer 1
+my index:2 AT 324.001 100
+1 170 1
+my index:2 location: 324.001 100
+1nb->syn_utilValue[orient]:-0.566462 m_uti_nodeInfo.getSynValue(orient): 0.601936
+Im node 2 My bundleBuffer 1
+my index:2 AT 326.001 100
+1 170 1
+my index:2 location: 326.001 100
+1nb->syn_utilValue[orient]:-0.567302 m_uti_nodeInfo.getSynValue(orient): 0.602299
+Im node 2 My bundleBuffer 1
+my index:2 AT 328.001 100
+1 170 1
+my index:2 location: 328.001 100
+1nb->syn_utilValue[orient]:-0.567602 m_uti_nodeInfo.getSynValue(orient): 0.602655
+Im node 2 My bundleBuffer 1
+my index:2 AT 330.001 100
+1 170 1
+my index:2 location: 330.001 100
+1nb->syn_utilValue[orient]:-0.567218 m_uti_nodeInfo.getSynValue(orient): 0.603004
+Im node 2 My bundleBuffer 1
+my index:2 AT 332.001 100
+1 170 1
+my index:2 location: 332.001 100
+1nb->syn_utilValue[orient]:-0.568387 m_uti_nodeInfo.getSynValue(orient): 0.603346
+Im node 2 My bundleBuffer 1
+my index:2 AT 334.001 100
+1 170 1
+my index:2 location: 334.001 100
+1nb->syn_utilValue[orient]:-0.566877 m_uti_nodeInfo.getSynValue(orient): 0.603681
+Im node 2 My bundleBuffer 1
+my index:2 AT 336.001 100
+1 170 1
+my index:2 location: 336.001 100
+1nb->syn_utilValue[orient]:-0.567098 m_uti_nodeInfo.getSynValue(orient): 0.604009
+Im node 2 My bundleBuffer 1
+my index:2 AT 338.001 100
+1 170 1
+my index:2 location: 338.001 100
+1nb->syn_utilValue[orient]:-0.566908 m_uti_nodeInfo.getSynValue(orient): 0.60433
+Im node 2 My bundleBuffer 1
+my index:2 AT 340.001 100
+1 170 1
+my index:2 location: 340.001 100
+1nb->syn_utilValue[orient]:-0.566141 m_uti_nodeInfo.getSynValue(orient): 0.604645
+Im node 2 My bundleBuffer 1
+my index:2 AT 342.001 100
+1 170 1
+my index:2 location: 342.001 100
+1nb->syn_utilValue[orient]:-0.56698 m_uti_nodeInfo.getSynValue(orient): 0.604953
+Im node 2 My bundleBuffer 1
+my index:2 AT 344.001 100
+1 170 1
+my index:2 location: 344.001 100
+1nb->syn_utilValue[orient]:-0.567282 m_uti_nodeInfo.getSynValue(orient): 0.605255
+Im node 2 My bundleBuffer 1
+my index:2 AT 346.001 100
+1 170 1
+my index:2 location: 346.001 100
+1nb->syn_utilValue[orient]:-0.5669 m_uti_nodeInfo.getSynValue(orient): 0.605551
+Im node 2 My bundleBuffer 1
+my index:2 AT 348.001 100
+1 170 1
+my index:2 location: 348.001 100
+1nb->syn_utilValue[orient]:-0.568069 m_uti_nodeInfo.getSynValue(orient): 0.60584
+Im node 2 My bundleBuffer 1
+my index:2 AT 350.001 100
+1 170 1
+my index:2 location: 350.001 100
+1nb->syn_utilValue[orient]:-0.568628 m_uti_nodeInfo.getSynValue(orient): 0.606124
+Im node 2 My bundleBuffer 1
+my index:2 AT 352.001 100
+1 170 1
+my index:2 location: 352.001 100
+1nb->syn_utilValue[orient]:-0.568444 m_uti_nodeInfo.getSynValue(orient): 0.606402
+Im node 2 My bundleBuffer 1
+my index:2 AT 354.001 100
+1 170 1
+my index:2 location: 354.001 100
+1nb->syn_utilValue[orient]:-0.567926 m_uti_nodeInfo.getSynValue(orient): 0.606675
+Im node 2 My bundleBuffer 1
+my index:2 AT 356.001 100
+1 170 1
+my index:2 location: 356.001 100
+1nb->syn_utilValue[orient]:-0.566895 m_uti_nodeInfo.getSynValue(orient): 0.606941
+Im node 2 My bundleBuffer 1
+my index:2 AT 358.001 100
+1 170 1
+my index:2 location: 358.001 100
+1nb->syn_utilValue[orient]:-0.567519 m_uti_nodeInfo.getSynValue(orient): 0.607203
+Im node 2 My bundleBuffer 1
+my index:2 AT 360.001 100
+1 170 1
+my index:2 location: 360.001 100
+1nb->syn_utilValue[orient]:-0.567647 m_uti_nodeInfo.getSynValue(orient): 0.607459
+Im node 2 My bundleBuffer 1
+my index:2 AT 362.001 100
+1 170 1
+my index:2 location: 362.001 100
+1nb->syn_utilValue[orient]:-0.567127 m_uti_nodeInfo.getSynValue(orient): 0.60771
+Im node 2 My bundleBuffer 1
+my index:2 AT 364.001 100
+1 170 1
+my index:2 location: 364.001 100
+1nb->syn_utilValue[orient]:-0.568181 m_uti_nodeInfo.getSynValue(orient): 0.607955
+Im node 2 My bundleBuffer 1
+my index:2 AT 366.001 100
+1 170 1
+my index:2 location: 366.001 100
+1nb->syn_utilValue[orient]:-0.568649 m_uti_nodeInfo.getSynValue(orient): 0.608196
+Im node 2 My bundleBuffer 1
+my index:2 AT 368.001 100
+1 170 1
+my index:2 location: 368.001 100
+1nb->syn_utilValue[orient]:-0.568392 m_uti_nodeInfo.getSynValue(orient): 0.608432
+Im node 2 My bundleBuffer 1
+my index:2 AT 370.001 100
+1 170 1
+my index:2 location: 370.001 100
+1nb->syn_utilValue[orient]:-0.567816 m_uti_nodeInfo.getSynValue(orient): 0.608663
+Im node 2 My bundleBuffer 1
+my index:2 AT 372.001 100
+3 600 200
+my index:2 AT 372.001 100
+1 170 1
+Im node 2 recv 1500 from node 2
+( 5) -  2 sending Route Request, dst: 3
+( 6) -  2 sending Route Request, dst: 3, tout 1.800000 ms
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1280 from node 2
+3 - recvRequest: destination sending reply
+sending Reply from 3 at 186.00
+2 - recvReply: received a REPLY
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+recvRequest: got my own REQUEST
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv 10 from node 3
+Im node 2 recv a ACK!!
+Im node 2 PURGE 1
+Im node 1 PURGE 2

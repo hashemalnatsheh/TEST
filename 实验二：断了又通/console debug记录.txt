@@ -1,0 +1,174 @@
+
+
+
+
+Simulation of a simple wireless topology running with AODV
+
+
+
+Starting simulation...
+
+
+
+num_nodes is set 4
+warning: Please use -channel as shown in tcl/ex/wireless-mitf.tcl
+
+INITIALIZE THE LIST xListHead
+Loading connection pattern file
+
+
+
+argc::3 target _o88---------------------------------------------
+argc::3 target _o91---------------------------------------------
+argc::3 target _o94---------------------------------------------
+argc::3 target _o97---------------------------------------------
+Connection pattern file loading complete...
+
+
+
+Loading scenario file...
+
+
+
+Scenario file loading complete...
+
+
+
+Simulation may take a few minutes...
+
+
+
+A sample script runs
+
+argc::3 index 0---------------------------------------------
+Im node 0 RIGISTRATION 
+argc::3 index 1---------------------------------------------
+Im node 1 RIGISTRATION 
+argc::3 index 2---------------------------------------------
+Im node 2 RIGISTRATION 
+argc::3 index 3---------------------------------------------
+Im node 3 RIGISTRATION 
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+SORTING LISTS ...DONE!
+argc::8 send 3---------------------------------------------
+argc::8 send 3---------------------------------------------
+Im node 0 My bundleBuffer 2
+my index:0 AT 0 200
+2 250 200
+my index:0 location: 0 200
+2nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1280 from node 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv 10 from node 2
+Im node 0 recv a ACK!!
+Im node 2 PURGE 3
+Im node 3 PURGE 2
+Im node 2 My bundleBuffer 1
+my index:2 AT 182.946 388.506
+0 0 200
+my index:2 location: 182.946 388.506
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): -1
+Im node 0 My bundleBuffer 1
+my index:0 AT 0 200
+2 216.46 294.289
+my index:0 location: 0 200
+2nb->syn_utilValue[orient]:-1 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 0 PURGE 2
+Im node 2 PURGE 0
+Im node 2 My bundleBuffer 1
+Im node 0 My bundleBuffer 1
+Im node 2 My bundleBuffer 1
+Im node 0 My bundleBuffer 1
+Im node 2 My bundleBuffer 1
+my index:2 AT 250 200
+0 0 200
+my index:2 location: 250 200
+0nb->syn_utilValue[orient]:0 m_uti_nodeInfo.getSynValue(orient): -0.59049
+Im node 0 My bundleBuffer 1
+my index:0 AT 0 200
+2 216.512 294.144
+my index:0 location: 0 200
+2nb->syn_utilValue[orient]:-0.6561 m_uti_nodeInfo.getSynValue(orient): 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1500 from node 0
+Im node 0 recv 1280 from node 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv a DATA!! FROM 0
+Im node 2 recv 10 from node 2
+Im node 0 recv a ACK!!
+Im node 2 My bundleBuffer 2
+my index:2 AT 250 200
+3 500 200
+my index:2 AT 250 200
+0 0 200
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1280 from node 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv 10 from node 3
+Im node 2 recv a ACK!!
+Im node 2 My bundleBuffer 1
+my index:2 AT 250 200
+3 500 200
+my index:2 AT 250 200
+0 0 200
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1500 from node 2
+Im node 2 recv 1280 from node 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv a DATA!! FROM 2
+Im node 3 recv 10 from node 3
+Im node 2 recv a ACK!!
+ns: stop: no space left on device
+
+    while executing
+
+"close $namtracefd"
+
+    (procedure "stop" line 5)
+
+    invoked from within
+
+"stop"
+
